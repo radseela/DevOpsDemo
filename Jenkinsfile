@@ -8,13 +8,13 @@ pipeline {
 	  
 	  }
 	  stage ('Verify'){
-	      steps{
-		  ehco "This is Second Stept"
+	     steps{
+		 echo "This is Second Stept"
 		  }
 	  }
 	  stage ('Install'){
-	      steps{
-		  echo "This is Third Steo"
+	     steps{
+		 echo "This is Third Steo"
 		  }
 	  }
    }
