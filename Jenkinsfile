@@ -12,7 +12,7 @@ pipeline {
 		  ehco "This is Second Stept"
 		  }
 	  }
-	  sgage ('Install') {
+	  stage ('Install') {
 	      steps {
 		  echo "This is Third Steo"
 		  }
